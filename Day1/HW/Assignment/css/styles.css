@@ -1,0 +1,24 @@
+body{
+    font-size: 25px;
+    color: #9b7e7e;
+    background-color: red;
+}
+h1{
+  font-size: 70px;
+}
+h2{
+
+}
+header{
+    font-size: 30px;
+}
+.introduction{
+    color: rgb(178, 139, 83);
+}
+a{
+  text-decoration: none;
+}
+class.container{
+  color: grey;
+  width: 90%;
+}
