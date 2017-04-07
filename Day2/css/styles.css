@@ -1,0 +1,21 @@
+header{
+  background: #343e3d;
+  font color: #cfffe4;
+  text color: Arial;
+  text-transform: capitalize;
+  text-align: center;
+  border color: #617466;
+  border-bottom: 10px green solid;
+  margin: -10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+article{
+  margin: 10px;
+  image-orientation: center;
+}
+
+body{
+  font color: #28261c;
+  body width: 20px;
+}
