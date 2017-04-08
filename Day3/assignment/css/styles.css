@@ -21,6 +21,13 @@ header, footer{
 .LogoShoe{
     vertical-align: text-top;
     text-align: left;
+    display: inline-block;
+}
+
+.TopRightNav{
+    display: inline;
+    text-align: right;
+    float: right;
 }
 a:active{
     color: darkred;
@@ -35,9 +42,8 @@ body{
     align-items: center;
 }
 
-
 .QuickSneakers{
-    background-color: #FF512F;
+    background: red;
     width: 100%;
     padding-left: 50%;
     padding-right: 50%;
@@ -45,9 +51,10 @@ body{
     padding-bottom: 10px;
     color: white;
 }
-
+.sneakertext{
+    float: right;
+}
 .shoe1{
-    color: white;
     background-color: #FF512F;
     image-orientation: center;
 }
@@ -91,8 +98,6 @@ body{
 .SpringSummer{
     color: darkred;
 }
-
-
 
 button {
     background-color: white; /* Green */
