@@ -1,13 +1,10 @@
 header, footer{
-    margin: auto;
-    padding-left: 6px;
-    text-align: left;
-    border-bottom: 4px darkred;
     background-color: white;
-    width: 100%;
+    max-width: 100%;
+    height: 60px;
 }
 
-.HeadandFoot{
+/*.HeadandFoot{
   background-color: white;
   image-orientation: left;
   text-transform: capitalize;
@@ -16,62 +13,151 @@ header, footer{
   font-family: sans-serif;
   text-align: left;
   letter-spacing: normal;
-}
+}*/
 
-.LogoShoe{
-    vertical-align: text-top;
-    text-align: left;
+/*.LogoShoe{
+
+}*/
+
+.topLeftShoe{
+    image-orientation: left;
+    float: left;
+    height: 5%;
+    width: 5%;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    margin-bottom: 1%;
+}
+.MWBG{
+    letter-spacing: 2px;
     display: inline-block;
+    height: 100%;
+    width: 30%;
+    position: relative;
+    float: left;
+    text-align: left;
+    padding-left: 20px;
+    align-content: center;
+    text-decoration: none;
+    color: #ff512f;
+}
+.activo{
+    text-decoration: underline;
+    color: #b1290e;
 }
 
 .TopRightNav{
-    display: inline;
-    text-align: right;
+    display: inline-block;
     float: right;
+    width: auto;
 }
+/*.Master{
+
+}*/
 a:active{
     color: darkred;
     border-bottom: 4px darkred;
 }
 body{
     font-size: 16px;
-    width: 50%;
-    padding: 10px;
-    border: 3px
+    max-width: 100%;
+    padding: 0px;
+    border: 0px
     background-color: white;
-    align-items: center;
 }
 
 .QuickSneakers{
-    background: red;
-    width: 100%;
-    padding-left: 50%;
-    padding-right: 50%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    background: -webkit-linear-gradient(left, #dd2574 0%,#dd2574 26%,#dd2574 29%,#dd2574 30%,#dd2574 30%,#dd2574 32%,#dd2574 33%,#dd2574 33%,#fe5030 61%,#fe5030 100%); /* Chrome10-25,Safari5.1-6 */
+    max-width: 100%;
+    height: 437px;
+    padding-left: 10%;
+    padding-right: 30px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-left: -10px;
     color: white;
+    font: 14px white sans-serif;
 }
-.sneakertext{
-    float: right;
-}
-.shoe1{
-    background-color: #FF512F;
+
+.sneakerImage{
+    float: left;
+    clear: both;
+    display: inline-block;
     image-orientation: center;
+}
+.sneakerText{
+    float: left;
+    margin-left: 100px;
+    padding: 0px 20px 0px 20px;
+    width: 440px;
+    display: inline-block;
+}
+.qSneakHead{
+    font: sans-serif;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.Latin{
+    border-style: dashed;
+    border: 1px 0px 1px 0;
+    border-left: none;
+    border-right: none;
+    border-color: #972834;
+    padding: 25px 0 25px 0;
+    border-spacing: 4px;
+    opacity: inherit;
+}
+.Reviews{
+    color: darkred;
+    text-align: right;
+    float:right;
+}
+button {
+    background-color: white; /* Green */
+    border: black;
+    color: red;
+    padding: 10px 15px 10px 15px;
+    margin-left: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 8px;
+    border-radius: 6px;
 }
 .multiTopic{
     background-color: white;
     width: 100%;
     color: 10px black;
     background-color: white;
-    padding-left: 50%;
-    padding-right: 50%;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    border: 0px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border: 10px;
 }
-.ProductDetails{
 
+.PDSF{
+      margin-left: 10px;
+      font-size: 20px;
+      text-decoration: underline;
+      width: 80%;
+      display: inline;
+      margin-left: 100px;
+      text-align: left;
+      clear: both;
+      float: left;
+      position: static;
+      padding: 5%;
 }
+.RV{
+      float: right;
+      display: inline;
+}
+.multiTopic{
+      display: block;
+      text-align: left;
+      margin-left: 20px;
+}
+
 .RecommendedShoes{
     background-color: #FFEEEB; /* lightpink */
     font-size: 40px;
@@ -95,21 +181,14 @@ body{
     padding-top: 40px;
     padding-bottom: 40px;
 }
-.SpringSummer{
+.springSummer{
     color: darkred;
+    text-align: left;
+    font-size: 14px;
+    padding: 0px 0px 0px 0px;
+    margin-top: -10px;
 }
 
-button {
-    background-color: white; /* Green */
-    border: black;
-    color: red;
-    padding: 5px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 8px;
-    border-radius: 6px;
-}
 
 .BottomIsh{
     clear: both;
